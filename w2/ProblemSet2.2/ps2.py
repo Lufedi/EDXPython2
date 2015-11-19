@@ -330,8 +330,7 @@ def showPlot1(title, x_label, y_label):
     pylab.ylabel(y_label)
     pylab.show()
 
-
-#testRobotMovement(RandomWalkRobot, RectangularRoom)
+testRobotMovement(RandomWalkRobot, RectangularRoom)
 def showPlot2(title, x_label, y_label):
     """
     What information does the plot produced by this function tell you?
@@ -353,7 +352,7 @@ def showPlot2(title, x_label, y_label):
     pylab.ylabel(y_label)
     pylab.show()
     
-showPlot2("1","1","1")
+
 # === Problem 5
 #
 # 1) Write a function call to showPlot1 that generates an appropriately-labeled
